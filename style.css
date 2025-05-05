@@ -133,5 +133,14 @@ nav button:hover {
 }
 .banner-img .banner-img-container .states .courses-ratings{
     background-color: white;
-    
+    padding: 20px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -20px;
+    right: -24%;
+}
+
+.banner-img .banner-img-container .states .courses-ratings i{
+    color: rgb(255, 255, 85);
 }
