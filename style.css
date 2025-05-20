@@ -1,12 +1,11 @@
 body {
-    background-color: rgb(218, 244, 218);
     margin: 0;
     padding: 0;
     font-family: 'poppins',sans-serif;
 }
 
 nav {
-    background-color: rgb(6, 122, 6);
+    background-color: #006400;
     justify-content: space-around;
     display: flex;
     align-items: center;
@@ -15,8 +14,8 @@ nav {
     top: 0;
     left: 0;
     z-index: 1000;
-    padding: 9px;
-    font-weight: 538;
+    padding: 2px;
+    box-shadow: 0px 4px 8px rgb(196, 196, 196);
 }
 
 nav ul {
@@ -37,6 +36,7 @@ a {
     color: white;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 .logo {
@@ -70,6 +70,7 @@ nav button:hover {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: rgb(218, 244, 218);
 }
 
 .banner .banner-desc {
@@ -174,30 +175,43 @@ font-family: Arial, Helvetica, sans-serif;
   }
   
   .reason {
-    background-color: #fff; 
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   box-shadow: 0px 4px 8px rgb(238, 238, 238);
+    padding: 10px;
+    width: 290px;
+    margin: 27px;
   }
+    .reason p{
+      color: rgb(105, 105, 105);
+    }
   #services h2{
     font-weight: bold;
     font-size: 1.5rem;
   }
   
 #categories .categories{
+    background-color: #fff;
     display: grid;
-    grid-template-columns: repeat(3,6fr);
+    grid-template-columns: repeat(4,6fr);
     gap: 20px;
     padding: 20px;
 }
 .categorie {
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(233, 255, 233);
+  padding: 15px;  
+}
+.categorie i{
+  background-color: green;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
   }
-
+.categorie p{
+  color: rgb(99, 99, 99);
+}
   #Contact{
     background-color: green;
   }
@@ -207,7 +221,7 @@ font-family: Arial, Helvetica, sans-serif;
   }
   
   .container {
-    max-width: 1170px;
+    max-width: 1180px;
     margin: auto;
   }
   
@@ -219,10 +233,19 @@ font-family: Arial, Helvetica, sans-serif;
   
   .footer-col {
     flex: 1;
-    min-width: 250px;
-    margin: 20px;
   }
+ .footer-col .form form .btn{
+  background-color: #fff;
+  color: green;
+  padding: 8px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+ }
+ .footer-col .form form .btn:hover{
   
+ }
   .footer-col h3 {
     margin-bottom: 15px;
     color: black;
@@ -242,3 +265,40 @@ font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     width: 30%;
   }
+ .courses .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:25px;
+}
+
+ .courses p{
+  margin: 29px;
+  color: rgb(94, 94, 94);
+ }
+ .courses .title h2{
+  font-size: 25px;
+ }
+ 
+.courses span {
+  background-color: green;
+  color: #fff;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 70px;
+  text-align: center;
+}
+.courses span:hover{
+  background-color: #fff;
+  outline: 1px solid green;
+  transition: all 0.3s ease;
+  color: green;
+}
+
+.copyright{
+  background-color: #006400;
+  color: white;
+  padding: 2px;
+  text-align: center;
+}
