@@ -181,6 +181,7 @@ font-family: Arial, Helvetica, sans-serif;
     width: 290px;
     margin: 27px;
     justify-content: center;
+    border-radius: 20px;
   }
     .reason p{
       color: rgb(105, 105, 105);
@@ -306,4 +307,20 @@ font-family: Arial, Helvetica, sans-serif;
   color: white;
   padding: 2px;
   text-align: center;
+}
+.parterns  .parterns-slider .item{
+  text-align: center;
+  background-color: var(--light-heading-clr);
+  padding: 5px;
+}
+
+.parterns  .parterns-slider .item img{
+  width: 120px;
+  display: inline-block;
+}
+
+.owl-carousel .owl-nav{
+  position: absolute;
+  right: 0;
+  top: -80px;
 }
